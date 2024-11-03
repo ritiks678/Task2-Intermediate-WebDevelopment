@@ -1,0 +1,58 @@
+/* Style for the contact form */
+#contactForm {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #f7f7f7;
+    border-radius: 5px;
+  }
+  
+  label, input, button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Flexbox style for the navigation bar */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Grid layout for main container */
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  .content, .sidebar {
+    padding: 10px;
+    background: #f4f4f4;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
